@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.debug
+    ports:
+      - "3573:3573"
+      - "4573:4573"
