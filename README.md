@@ -35,7 +35,7 @@ func main() {
 ## Dockerize the app
 Inorder to containerize our go app, we need to add the following content to `Dockerfile` file
 
-```docker
+```yaml
 FROM golang:1.20.3-alpine3.17
 
 WORKDIR /app
